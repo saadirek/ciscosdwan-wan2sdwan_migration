@@ -85,7 +85,7 @@ Device IP : 10.68.116.134 is failed to connect. Please try again.
 7. The script will ask access to the vManage, credentials. Enter the vManage FQDN or IP address and Its credentail. Note that the Managment machine will also need to have the accessibility to the vManage controller as well.  The script will get the bootstrap file of each device and push it to each of the WAN Router based on the IP address provided initially.
 ```
 What is the vManage IP Address ? [x.x.x.x] : 10.68.116.127 
-What is the vManage Username ? : sadirek
+What is the vManage Username ? : 
 What is the vManage Password ? : 
 ```
 
