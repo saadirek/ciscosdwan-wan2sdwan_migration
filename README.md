@@ -29,17 +29,15 @@ All WAN routers in the list have the "same" username and password.
 0. Clone script from git repo.
 ```
 git clone https://github.com/saadirek/ciscosdwan-wan2sdwan_migration
-Cloning into 'ciscosdwan-wan2sdwan_migration'...
-remote: Enumerating objects: 27, done.
-remote: Counting objects: 100% (27/27), done.
-remote: Compressing objects: 100% (25/25), done.
-remote: Total 27 (delta 11), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (27/27), done.
-
 cd ciscosdwan-wan2sdwan_migration
 ```
 1. Open the device_list.csv and fill up the WAN device information. Following this format _"IP Address,Serial Number,Device Model"_
 For Example
+```
+cat device_list.csv
+```
+
+
 ```
 10.68.116.133,FGL2303119J,C1111-4P
 10.68.116.134,FGL2303129Y,C1111-4P
