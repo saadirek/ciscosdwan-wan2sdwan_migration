@@ -11,8 +11,8 @@ Assumption :
 All WAN routers in the list have the "same" username and password.
 
 **This is the rough explanation on how to run this script**
-1. Open the device_list.csv and fill up the WAN device information. Following this format. <IP Address>,<Serial Number>,<Device Model>
-Example
+1. Open the device_list.csv and fill up the WAN device information. Following this format "<IP Address>,<Serial Number>,<Device Model>"
+For Example
 ```
 10.68.116.133,FGL2303129J,C1111-4P
 10.68.116.134,FGL2303129Y,C1111-4P
