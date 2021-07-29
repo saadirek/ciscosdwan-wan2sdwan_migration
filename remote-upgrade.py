@@ -26,11 +26,13 @@ csv_ip_address=[]
 
 
 # Delete bootstrap folder and recreate it **** Do not delete the bootstrap folder
-shutil.rmtree('./bootstrap')
+if (os.path.exists('./bootstrap')):
+    shutil.rmtree('./bootstrap')
 os.makedirs('./bootstrap')
 
 # Delete backup_config folder and recreate it **** Do not delete the backup_config folder
-shutil.rmtree('./backup_config')
+if (os.path.exists('./backup_config')):
+    shutil.rmtree('./backup_config')
 os.makedirs('./backup_config')
 
 
