@@ -11,18 +11,6 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 
 
-#SDWAN_IP = sys.argv[1]
-#SDWAN_USERNAME = sys.argv[2]
-#SDWAN_PASSWORD = sys.argv[3]
-
-# SDWAN_IP = "vmanage-1764098.viptela.net"
-# SDWAN_USERNAME = "cisco"
-# SDWAN_PASSWORD = "C1sco12345"
-
-SDWAN_IP = "10.68.116.127"
-SDWAN_USERNAME = "sadirek"
-SDWAN_PASSWORD = "C1sco12345"
-
 class rest_api_lib:
     def __init__(self, vmanage_ip, username, password):
         self.vmanage_ip = vmanage_ip
