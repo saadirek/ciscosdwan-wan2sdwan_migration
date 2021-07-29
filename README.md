@@ -9,7 +9,7 @@ Objective of this script is to log in to the Cisco WAN Routers and check on the 
 7. Make sure the underlay connectivity from the Tranditional WAN is able to communicate to the Cisco SDWAN Controller either on the cloud or on premise.
 
 
-**Requirement **
+**Requirement**
 
 Python 3.7
 
@@ -19,6 +19,9 @@ Python 3.7
 
 All WAN routers in the list have the "same" username and password.
 
+
+**Overall Script Flow**
+![image](https://user-images.githubusercontent.com/68508144/127443926-e95de095-4b5b-4f45-b95c-86fccfcb293a.png)
 
 
 
